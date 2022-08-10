@@ -1,0 +1,181 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee&family=Hurricane&family=Luckiest+Guy&family=Slabo+27px&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+}
+
+body {
+    display: flex;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url('../IMG/fundo.png.png');
+}
+.meio {
+    width: 100%;
+    display: flex;
+}
+
+.meio-conteudo {
+    width: 224px;
+    height: 87vh;
+    display: flex;
+    padding: 40px;
+    border-radius: 48px;
+    margin-right: 118px;
+    flex-direction: column;
+    justify-content: space-between;
+    background: rgba(249, 230, 230, 0.7);
+}
+
+.meio-conteudo--lista {
+    font-size: 25px;
+    font-weight: 500;
+    color: #9A7272;
+    margin-bottom: 36px;
+    font-style: normal;
+    font-family: 'Poppins';
+    letter-spacing: 0.02em;
+}
+
+.meio-conteudo--casa {
+    color: #9A7272;
+    font-size: 36px;
+    font-weight: 400;
+    font-style: normal;
+    margin-bottom: 50px;
+    margin-bottom: 36px;
+    font-family: 'Luckiest Guy';
+}
+
+.conteudo-lateral {
+    width: 132px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 36px;
+    justify-content: space-between;
+}
+
+.conteudo {
+    width: 900px;
+}
+
+.conteudo-botao--botao {
+    width: 98px;
+    height: 37px;
+    border: none;
+    font-size: 12px;
+    margin-top: 23px;
+    color: #FFFFFF;
+    font-style: normal;
+    border-radius: 72px;
+    font-family: 'Poppins';
+    background: linear-gradient(278.93deg, #DC8F95 -34.41%, #CB655B 114.58%);
+    
+} 
+.box-conteudo-principal--img {
+    margin-right: 20px;
+
+
+}
+ 
+.meio-conteudo--casa {
+    margin-bottom: 81px;
+}
+
+
+.meio-conteudo--lista {
+    margin-bottom: 15px;
+}
+
+.box-conteudo--navegacao {
+    display: flex;
+    align-items: center;
+}
+
+.box-conteudo--linha {
+    height: 2px;
+    width: 96px;
+    background:white ;
+    margin-right: 32px;
+    border: 0.1px solid #FDF3F3;
+    box-shadow: 0px 4px 4px rgb(0 0 0 / 25%);
+}
+
+
+ .conteudo-dois--paragrafo-diferente {
+    font-size: 68px;
+    margin-top: 91px;
+    font-family: 'Luckiest Guy';
+
+}
+
+.conteudo-dois--diferente {
+    color: #C05B51;
+    
+}
+
+.conteudo-dois--paragrafo2 {
+    font-size: 21px;
+    margin-top: 17px;
+    margin-bottom: 18px;
+    font-family: 'Poppins';
+    color: rgba(0, 0, 0, 0.5);
+    
+
+}
+ 
+.box-conteudo-principal--pesquisa {
+    padding: 5px;
+    border: none;
+    height: 28px;
+    width: 146px;
+    margin-top: 25px;
+    padding-left: 40px;
+    margin-bottom: 43px;
+    border-radius: 30px;
+    font-style: #FFFFFF;
+    background: #EAC7C6;
+    box-shadow: 5px 4px 10px #9A7272;
+
+    
+}
+
+.box {
+    width: 80%;
+}
+
+.box-conteudo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+}
+ 
+.box-conteudo-principal--imgpesq {
+    top: 35px;
+    left: 14px;
+    width: 16px;
+    z-index: 10;
+    height: 16px;
+    position: absolute;
+
+}
+
+.box-conteudo-principal {
+    position: relative;
+}
+
+.quadrado-seta {
+    position: absolute;
+    width: 278.51px;
+    height: 302.12px;
+    left: 1135.08px;
+    top: 205.11px;
+    display: flex;
+    margin-left: -388px;
+    margin-top: -126px;
+    
+}
+
+
